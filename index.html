@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Document</title>
 </head>
 
-<body>
-    <header class="header"> 
+<body class="wrapper">
+    <header class="header-top"> 
 
-        <h1>Welcome to my blog</h1>
+        <h1 class="header-top__heading">Welcome to my blog</h1>
 
-        <nav class="top-nav">
-            <ul>
+        <nav class="header-top__nav">
+            <ul class="nav-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Categories</a></li>
                 <li><a href="#">About</a></li>
@@ -29,46 +30,46 @@
 
             <article>
             
-            <h2>Post title</h2>
-            <p> Published on September 12, 2023 by John Doe</p>
-            <p>This is the content of the blog...</p>
-            <p>More content goes here...        </p> 
+            <h2>Post Title</h2>
+            <p class="p-subtitle p-article"> Published on September 12, 2023 by John Doe</p>
+            <p class="p-article">This is the content of the blog...</p>
+            <p class="p-article">More content goes here...        </p> 
 
             </article>
 
             <article>
 
-            <h2>Post title 2</h2>
-            <p>Published on September 10, 2023 by Jane Smith</p>
-            <p>This is another blog post...</p>
-            <p>More content goes here...</p>
+            <h2>Post Title 2</h2>
+            <p class="p-subtitle">Published on September 10, 2023 by Jane Smith</p>
+            <p class="p-article">This is another blog post...</p>
+            <p class="p-article">More content goes here...</p>
 
 
             </article>
 
         </section>
 
-        <aside>
+        <aside class="list-left">
 
             <section>
                 <h2> Recent Post </h2>
-                    <ul>
-                        <li><a href=#>Recent post 1</a></li>
+                    <ul class="nav-list ">
+                        <li><a href="#">Recent post 1</a></li>
                         <li><a href="#">Recent post 2</a></li>
                         <li><a href="#">Recent post 3</a></li>
                     </ul>
                
             </section>
-            <section>
+            <section class="section-categories">
                 <h2> Categories</h2>
-                    <ul>
+                    <ul class="nav-list">
                         <li><a href="#">Category 1</a></li>
                         <li><a href="#">Category 2</a></li>
                         <li><a href="#">Category 3</a></li>
                     </ul>
                
             </section>
-
+            
         </aside>
 
     </main>
